@@ -1,9 +1,7 @@
 numpy
 pandas
 matplotlib
-Kneelocator
 seaborn
-sklearn
-importlib
+scikit-learn
 plotly
 streamlit
