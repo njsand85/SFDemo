@@ -198,7 +198,7 @@ importlib.reload(ch)
 
 # Considerations for parallelizasion of clusters
 
-st.title("This is a Salsforce Clustering Demo with maps")
+st.title("This is a Salesforce Clustering Demo with maps")
 
 #Adding a html file
 HtmlFile = open("test.html", 'r', encoding='utf-8')
@@ -208,7 +208,7 @@ components.html(source_code, width=600, height = 600)
 
 
 
-st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), height=400)
+st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), width = 400, height=400)
 
 st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 1))
 
