@@ -209,12 +209,12 @@ components.html(source_code, width=600, height = 600)
 HtmlFile = open("Cluster0.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 print(source_code)
-components.html(source_code, height=500)
+components.html(source_code, height=300, width=300)
 
 HtmlFile = open("Cluster1.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 print(source_code)
-components.html(source_code, height=500)
+components.html(source_code, height=300)
 
 
 
