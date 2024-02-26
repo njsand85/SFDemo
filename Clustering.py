@@ -203,7 +203,7 @@ importlib.reload(ch)
 HtmlFile = open("test.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 print(source_code)
-components.html(source_code, height=400)
+components.html(source_code, width=600)
 
 st.title("This is a Clustering Demo with maps!")
 
