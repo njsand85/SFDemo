@@ -203,19 +203,9 @@ st.title("This is a Salesforce Clustering Demo with maps")
 #Adding a html file
 HtmlFile = open("test.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
-print(source_code)
+#print(source_code)
 components.html(source_code, width=600, height = 600)
-'''
-HtmlFile = open("Cluster0.html", 'r', encoding='utf-8')
-source_code = HtmlFile.read() 
-print(source_code)
-components.html(source_code, height=300, width=300)
 
-HtmlFile = open("Cluster1.html", 'r', encoding='utf-8')
-source_code = HtmlFile.read() 
-print(source_code)
-components.html(source_code, height=300)
-'''
 
 
 st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), use_container_width = False, height = 300, width = 150)
