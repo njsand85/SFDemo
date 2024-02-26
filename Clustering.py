@@ -208,7 +208,7 @@ components.html(source_code, width=600, height = 600)
 
 
 
-st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), width = 400)
+st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), width = 200)
 
 st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 1))
 
