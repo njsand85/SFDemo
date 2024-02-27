@@ -198,7 +198,7 @@ importlib.reload(ch)
 
 # Considerations for parallelizasion of clusters
 
-st.title("This is a Salesforce Clustering Demo with maps")
+st.title("This is a Clustering Demo with maps")
 
 #Adding a html file
 HtmlFile = open("test.html", 'r', encoding='utf-8')
