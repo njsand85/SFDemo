@@ -204,7 +204,7 @@ st.title("This is a Clustering Demo with maps")
 HtmlFile = open("test.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 #print(source_code)
-components.html(source_code, width=600, height = 600)
+components.html(source_code, width=300, height = 300)
 '''
 Red cluster:
 * High income, frugal spending, wide age range
