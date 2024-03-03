@@ -205,12 +205,38 @@ HtmlFile = open("test.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 #print(source_code)
 components.html(source_code, width=600, height = 600)
+'''
+Red cluster:
+* High income, frugal spending, wide age range
+* “Affluent neighborhood”
+
+Yellow cluster:
+* Low income, low spending, old age
+* “Minstepensjonist/uføretrygdet”
+
+Purple:
+* Low income, high spending, young
+* “Students”
+
+'''
 
 
 
 st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), use_container_width = False, height = 300, width = 150)
+'''
+- Cluster 0: Low income area, small/medium stores, consisting mostly of students aged 20-30, Politics: 30% AP, 10% V, 25 MDG, 15% H.
+- Cluster 1: Medium income area, large stores, consisting of families with children, 86% employment rate, Politics: 30% H, 20% AP, 5% V.
+- Cluster 2: Older couples aged 60 and above, medium/large stores, 38% employment rate, median income 450k NOK.
+'''
 
 st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 1))
+'''
+- Cluster 0: Low income area, consisting mostly of students aged 20-30, Politics: 30% AP, 10% V, 25 MDG, 15% H.
+- Cluster 1: Low income area, low emplyment rate 23%, Politics: 30% FRP, 20% AP, 5% V.
+- Cluster 2: Affluent area, median income above 1.2M NOK.
+- Cluster 3: Medium income area, consisting of families with children, 86% employment rate, Politics: 30% H, 20% AP, 5% V.
+- Cluster 4: Older couples aged 60 and above, 38% employment rate, median income 450k NOK.
+'''
 
 
 
