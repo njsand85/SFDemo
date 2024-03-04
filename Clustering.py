@@ -198,7 +198,8 @@ importlib.reload(ch)
 
 # Considerations for parallelizasion of clusters
 
-st.title("This is a Clustering Demo with maps")
+st.title("Clustering Demo")
+st.subheader("Customer segmentation in Oslo")
 
 #Adding a html file
 HtmlFile = open("test.html", 'r', encoding='utf-8')
