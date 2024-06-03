@@ -224,14 +224,14 @@ Purple:
 
 
 #st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), use_container_width = False, height = 300, width = 150)
-st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), use_container_width = True)
+st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 0), use_container_width = False)
 '''
 - Cluster 0: Low income area, small/medium stores, consisting mostly of students aged 20-30, Politics: 30% AP, 10% V, 25 MDG, 15% H.
 - Cluster 1: Medium income area, large stores, consisting of families with children, 86% employment rate, Politics: 30% H, 20% AP, 5% V.
 - Cluster 2: Older couples aged 60 and above, medium/large stores, 38% employment rate, median income 450k NOK.
 '''
 
-st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 1))
+st.plotly_chart(ch.clusterSpecificProduct(groupedProductData, 1), use_container_width = False)
 '''
 - Cluster 0: Low income area, consisting mostly of students aged 20-30, Politics: 30% AP, 10% V, 25 MDG, 15% H.
 - Cluster 1: Low income area, low emplyment rate 23%, Politics: 30% FRP, 20% AP, 5% V.
