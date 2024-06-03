@@ -22,6 +22,8 @@ import plotly.graph_objects as go
 importlib.reload(ch)
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 #Data Preparation
 
 df = pd.read_csv(r'acs_demographic_data_by_census_tract.csv')
