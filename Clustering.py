@@ -21,6 +21,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 importlib.reload(ch)
 import streamlit as st
+import mpld3
+import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 
@@ -76,8 +78,7 @@ plt.legend(*sc.legend_elements(), bbox_to_anchor=(1.05, 1), loc=2)
 
 #UNDO THIS COMMENT
 #plt.show()
-import mpld3
-import streamlit.components.v1 as components
+
 
 
 
