@@ -457,7 +457,7 @@ def clusterSpecificProduct(inputList, product):
                         lat="Lat", lon="Long", size="Product Sales",
                         opacity = 1,color_continuous_scale='blackbody', 
                         color = 'Cluster Id', mapbox_style = "open-street-map",
-                        height = 1000, width =4000)
+                        height = 700, width =8000)
     fig.update_layout(
         updatemenus=[
             dict(
